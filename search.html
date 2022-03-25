@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Розширений пошук</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p class="p">
+            <a class="top-link" href="index.html">Пошук Google</a>
+        </p> 
+        <p id="name">Розширений пошук</p>       
+        <p id="name2">Знайти сторінки, що <br>містять...</p>                 
+        <table>  
+            <form action="https://google.com/search">
+                <tr>
+                    <td><label class="ad-name">усі ці слова:</label></td>
+                        <td><input type="text" class="ad-pol" name="as_q"></td>
+                <tr>       
+                    <td><label class="ad-name">точне слово або фразу:</label></td>
+                        <td><input type="text" class="ad-pol" name="as_epq"></td>
+                </tr>
+                <tr>
+                    <td><label class="ad-name">будь-яке з цих слів:</label></td>
+                        <td><input type="text" class="ad-pol" name="as_oq"></td>
+                </tr>
+                <tr>
+                    <td><label class="ad-name">жодне з цих слів:</label></td>
+                        <td><input type="text" class="ad-pol" name="as_eq"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                        <td><input class="btn" id="ad-btn" type="submit" value="Розширений пошук"></td>
+                </tr>
+            </form>   
+        </table>             
+    </body>
+</html>
